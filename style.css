@@ -1,0 +1,165 @@
+/* .comforter-brush-regular {
+  font-family: "Comforter Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  }
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    margin-bottom: 0;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    height: 3rem;
+    background-color: rgb(54, 54, 54);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1.5rem;
+}
+
+#Home{
+    color: #ffb11b;
+}
+
+/* Hero-page */
+.Hero-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}
+
+.text-tagline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text img{
+    width: 30vw;
+}
+
+.chat{
+    background-color: #000;
+    color: #fff;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    width: 8rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.Hero-img{
+    align-self: last baseline;
+    margin-left: 9rem;
+}
+
+/* Description */
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(54, 54, 54);
+    color: #fff;
+}
+
+.heading{
+    font-family: "Comforter Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    color: #ffb11b;
+}
+
+.text p{
+    width: 45vw;
+}
+
+.Hero-img-2{
+    margin-left: 0rem;
+}
+
+/* A tattooed life */
+.description-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#img-3{
+    height: 100vh;
+}
+
+/* Gallery */
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:rgb(54, 54, 54);
+    padding-top: 2rem;
+}
+
+.card{
+    border: 5px solid #fff ;
+    width: 15vw;
+    object-fit: fill;
+    margin: 2rem 2rem 2.5rem 0rem;
+}
+
+.card img{
+    width: 100%;
+}
+
+img{
+    display:block;
+}
+
+.many-more{
+    color: #fff;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus{
+    font-size: 5rem;
+    margin: 0rem 1rem 0rem 1.5rem;
+}
+
+.footer{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color:rgb(54, 54, 54);
+    color: #fff;
+    filter: drop-shadow(0 -0.5mm 0.5mm #1a1a1a);
+    padding: 0rem 3rem 0rem 3rem;
+}
+
+.fa-x-twitter{
+    margin-right: 1rem;
+}
